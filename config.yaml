@@ -5,4 +5,9 @@ slug: asv-controller
 arch:
   - aarch64
 startup: application
-boot: "auto"
+boot: auto
+init: false
+options:
+  test: "test string"
+schema:
+  test: str
