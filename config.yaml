@@ -6,6 +6,9 @@ arch:
   - aarch64
 url: https://github.com/xirius/asv-controller-ha-addon
 image: registry.asv-chauffage.be/avs/pi4-asv-controller:1.0.0
+docker_registry: https://registry.asv-chauffage.be
+docker_username: !env_var ASV_REGISTRY_USERNAME
+docker_password: !env_var ASV_REGISTRY_PASSWORD
 ports:
   35123/tcp: null
 startup: application
