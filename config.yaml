@@ -1,24 +1,17 @@
 name: "ASV Controller"
 version: 1.0.0
 slug: "asv-controller"
-description: "Custom sensros aggregation to control heating system"
-
+description: "Custom sensros aggregation for to control heating system for Home Assistant running on Raspberry Pi 4"
 startup: application
 boot: "auto"
-
 arch:
   - aarch64
-
-url: "https://github.com/xirius/asv-controller-ha-addon"
-image: "registry.asv-chauffage.be/avs/pi4-asv-controller:1.0.0"
-
+url: https://github.com/xirius/asv-controller-ha-addon
+image: registry.asv-chauffage.be/avs/pi4-asv-controller:1.0.0
 ports:
   35123/tcp: null
-
 init: false
-
 options:
   test: 'test string'
-
 schema:
   test: str
