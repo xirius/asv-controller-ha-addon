@@ -4,6 +4,8 @@ version: 1.0.0
 slug: asv-controller
 arch:
   - aarch64
+ports:
+  35123/tcp: null
 startup: application
 boot: auto
 init: false
