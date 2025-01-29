@@ -1,6 +1,6 @@
 name: "ASV Controller"
 version: 1.0.0
-slug: "asv-controller"
+slug: "asv_controller"
 description: "Custom sensros aggregation for to control heating system for Home Assistant running on Raspberry Pi 4"
 startup: application
 boot: "auto"
