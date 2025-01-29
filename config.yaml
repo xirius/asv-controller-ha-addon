@@ -7,8 +7,7 @@ startup: application
 boot: "auto"
 
 arch:
-  - arm64
-  - armv7
+  - aarch64
 
 url: "https://github.com/xirius/asv-controller-ha-addon"
 image: "registry.asv-chauffage.be/avs/pi4-asv-controller:1.0.0"
@@ -18,5 +17,8 @@ ports:
 
 init: false
 
-map:
-- addon_config:rw
+options:
+  test: 'test string'
+
+schema:
+  test: str
