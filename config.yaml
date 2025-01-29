@@ -4,6 +4,7 @@ version: 1.0.0
 slug: asv-controller
 arch:
   - aarch64
+url: https://github.com/xirius/asv-controller-ha-addon
 ports:
   35123/tcp: null
 startup: application
