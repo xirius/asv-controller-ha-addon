@@ -1,2 +1,2 @@
-# asv-controller-ha-addon
-Custom sensors aggregation to control heating system
+# ha-addons
+Customized Home Assistant Add-Ons
