@@ -4,3 +4,5 @@ version: 1.0.0
 slug: asv-controller
 arch:
   - aarch64
+startup: application
+boot: "auto"
