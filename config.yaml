@@ -4,6 +4,10 @@ version: 1.0.0
 slug: asv-controller
 arch:
   - aarch64
+url: https://github.com/xirius/asv-controller-ha-addon
+image: registry.asv-chauffage.be/avs/pi4-asv-controller:1.0.0
+ports:
+  35123/tcp: null
 startup: application
 boot: auto
 init: false
