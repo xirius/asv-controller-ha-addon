@@ -1,2 +1,2 @@
 # ha-addons
-Customized Home Assistant Add-Ons
+Custom sensors aggregation to control heating system

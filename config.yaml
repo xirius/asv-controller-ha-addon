@@ -3,25 +3,20 @@ version: 1.0.0
 slug: "asv-controller"
 description: "Custom sensros aggregation to control heating system"
 
-init: false
-hassio_role: homeassistant
-homeassistant_api: false
-hassio_api: false
+startup: application
+boot: "auto"
 
 arch:
   - arm64
+  - armv7
 
+url: "https://github.com/xirius/asv-controller-ha-addon"
 image: "registry.asv-chauffage.be/avs/pi4-asv-controller:1.0.0"
 
-startup: "services"
-boot: "auto"
-
 ports:
-  8080/tcp: 8080
+  35123/tcp: null
 
-environment: {}
+init: false
+
 map:
 - addon_config:rw
-
-ports:
-  11321/tcp: null
