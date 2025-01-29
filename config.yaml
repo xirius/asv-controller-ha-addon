@@ -1,7 +1,6 @@
-name: Test Add-on
-description: A minimal test add-on
-version: 1.0
+name: ASV Controller
+description: Custom sensros aggregation to control heating system for Home Assistant running on Raspberry Pi 4
+version: 1.0.0
 slug: test_addon
 arch:
-  - armv7
   - aarch64
