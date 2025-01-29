@@ -6,6 +6,9 @@ startup: application
 boot: "auto"
 arch:
   - aarch64
+  - amd64
+  - armhf
+  - armv7
 url: https://github.com/xirius/asv-controller-ha-addon
 image: registry.asv-chauffage.be/avs/pi4-asv-controller:1.0.0
 ports:
