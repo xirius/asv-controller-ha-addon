@@ -9,6 +9,9 @@ image: registry.asv-chauffage.be/avs/pi4-asv-controller
 startup: application
 boot: auto
 init: false
+map:
+  - config
+  - ssl
 options:
   broker_host: "127.0.0.1"
   broker_port: 8883
