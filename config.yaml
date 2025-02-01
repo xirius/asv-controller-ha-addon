@@ -1,6 +1,6 @@
 name: ASV Controller
 description: Custom sensros aggregation to control heating system for Home Assistant running on Raspberry Pi 4
-version: 1.0.6
+version: 1.0.7
 slug: asv-controller
 arch:
   - aarch64
@@ -13,12 +13,16 @@ map:
   - config
   - ssl
 options:
+  mqtt_username: str
+  mqtt_password: str
   broker_host: "127.0.0.1"
   broker_port: 8883
   ssl_ca_file: "ca.crt"
   ssl_cert_file: "client.crt"
   ssl_key_file: "client.key"
 schema:
+  mqtt_username: "mqtt_user"
+  mqtt_password: "mqtt_password"
   broker_host: str
   broker_port: int
   ssl_ca_file: str
