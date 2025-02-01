@@ -1,6 +1,6 @@
 name: ASV Controller
 description: Custom sensros aggregation to control heating system for Home Assistant running on Raspberry Pi 4
-version: 1.0.5
+version: 1.0.6
 slug: asv-controller
 arch:
   - aarch64
