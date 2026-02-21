@@ -1,6 +1,6 @@
 name: ASV Controller
 description: Custom sensros aggregation to control heating system for Home Assistant running on Raspberry Pi 4
-version: 0.0.16
+version: 1.0.0
 slug: asv-controller
 arch:
   - aarch64
@@ -12,6 +12,7 @@ init: false
 map:
   - config
   - ssl
+  - data
 options:
   broker_host: "core-mosquitto"
   broker_port: 8883
