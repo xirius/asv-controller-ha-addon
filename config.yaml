@@ -12,7 +12,7 @@ init: false
 map:
   - config
   - ssl
-  - share
+  - share:rw
 options:
   broker_host: "core-mosquitto"
   broker_port: 8883
